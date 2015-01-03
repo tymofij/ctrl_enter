@@ -24,4 +24,4 @@ Adds some Unicode prettifications:
 
 When you need just typography without form submit - press shift+Enter
 
-
+<img src="https://raw.githubusercontent.com/tymofij/ctrl_enter/master/screenshot.png">
