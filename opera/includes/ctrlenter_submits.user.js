@@ -13,10 +13,8 @@ function zakavych(text) {
     
     if (text.match(/[а-ягўєї]/i)) {
         var smart_quotes = '$1«$2»$3' 
-        var backlink_prefix = text.match(/[ієїґ]/i) ? '' : 'ru_'
     } else {
         var smart_quotes = '$1“$2”$3'
-        var backlink_prefix = 'en_'
     }
     
     var replacements = [
@@ -26,7 +24,7 @@ function zakavych(text) {
 
     // nice citations
     // ugly tableish layout because LJ strips style attr in comments
-    [/\({2}([\S\s]+?)\){2}\n?/g, '<table cellspacing=0 cellpadding=2><tr><td width=5 bgcolor="silver">&nbsp;</td><td bgcolor="#eeeeee" width=5>&nbsp;</td><td bgcolor="#eeeeee">$1</td><td bgcolor="#eeeeee" valign="bottom"><a href="//clear.com.ua/'+backlink_prefix+'ctrl">&bdquo;</a></td></tr></table>'],
+    [/\({2}([\S\s]+?)\){2}\n?/g, '<table cellspacing=0 cellpadding=2><tr><td width=5 bgcolor="silver">&nbsp;</td><td bgcolor="#eeeeee" width=5>&nbsp;</td><td bgcolor="#eeeeee">$1</td><td bgcolor="#eeeeee" valign="bottom"></td></tr></table>'],
     
     // ukrainian apostrophe
     [/([б-щБ-ЩҐ])[\*'`]([а-яєїА-ЯЄЇ])/g, '$1’$2'],
