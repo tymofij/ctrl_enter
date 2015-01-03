@@ -1,0 +1,15 @@
+{
+  "name": "Ctrl+Enter Wikifies and Submits",
+  "version": "0.8",
+  "description": "Allows submitting on Ctrl+Enter in any input and textarea. Accepts a bit of wiki markup.",
+  "icons": { 
+    "16":  "ctrl-enter_16.png",
+    "48":  "ctrl-enter_48.png",
+    "128": "ctrl-enter_128.png" },
+  "content_scripts": [
+     {
+     "matches": ["<all_urls>"],
+     "js": ["ctrlenter_submits.user.js"]
+      }
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="extensions:tymofiy-ctrl-enter-submits" version="0.8">
+	<name>Ctrl+Enter Wikifies and Submits</name>
+	<description>Allows submitting on Ctrl+Enter in any input and textarea. Accepts a bit of wiki markup.</description>
+	<author href="http://clear.com.ua/">Tim Babych</author>
+	<icon src="icons/ctrl-enter_64.png"/> 
+</widget>
