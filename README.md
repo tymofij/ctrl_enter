@@ -2,9 +2,9 @@
 
 Allows submitting of web forms with simple Ctrl+Enter.
 
-Understands a bit of WackoWiki markup:
-
 **<a href="https://github.com/tymofij/ctrl_enter/raw/master/ctrlenter_submits.user.js">Install Greasemonkey script </a>**
+
+Understands a bit of WackoWiki markup:
 
 * \*\*word\*\* ⇒ **word**
 * //word// ⇒ *word*
